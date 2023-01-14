@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    <title>Random desert</title>
+</head>
+<body>
+    <header>Header</header>
+    <main>
+        <p>Main</p>
+        <section>
+            <form action="" method="get">
+                    <label for="food">Наша кнопка (не знает пока куда отправлять): </label>
+                    <input type="text" name="food" id="" placeholder="название блюда">
+                    <button type="submit">Отправить</button>                                
+            </form>
+
+            <form action="https:/google.com/search" method="get">
+                    <label for="q">Для примера, отправляет запрос на Google</label>
+                    <input type="text" name="q" id="" placeholder="текст для поиска в гугле">
+                    <button type="submit">Отправить</button>                                
+            </form>
+        </section>
+    </main>
+    <footer>Footer</footer>
+</body>
+</html>
